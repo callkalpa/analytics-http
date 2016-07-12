@@ -3,6 +3,7 @@ org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../depl
 org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/);\
 org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/carbonapps/);\
 org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.analytics.http_${feature.version}/org_wso2_carbon_analytics_http-1.0.0.car,target:${installFolder}/../../deployment/server/carbonapps/org_wso2_carbon_analytics_http-1.0.0.car,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/jaggeryapps/);\
 org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/jaggeryapps/http-analytics/);\
 org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.analytics.http_${feature.version}/http-analytics,target:${installFolder}/../../deployment/server/jaggeryapps/http-analytics,overwrite:true);\
 org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../deployment/server/jaggeryapps/portal);\
@@ -12,6 +13,6 @@ org.eclipse.equinox.p2.touchpoint.natives.mkdir(path:${installFolder}/../../depl
 org.eclipse.equinox.p2.touchpoint.natives.copy(source:${installFolder}/../features/org.wso2.carbon.analytics.http_${feature.version}/http-analytics-theme,target:${installFolder}/../../deployment/server/jaggeryapps/portal/extensions/themes/http-analytics-theme/,overwrite:true);\
 
 instructions.uninstall = \
-org.eclipse.equinox.p2.touchpoint.natives.remove(path:${installFolder}/../../deployment/server/carbonapps/org_wso2_carbon_analytics_esb-1.0.0.car,overwrite:true);\
+org.eclipse.equinox.p2.touchpoint.natives.remove(path:${installFolder}/../../deployment/server/carbonapps/org_wso2_carbon_analytics_http-1.0.0.car,overwrite:true);\
 org.eclipse.equinox.p2.touchpoint.natives.remove(path:${installFolder}/../../deployment/server/jaggeryapps/http-analytics/,overwrite:true);\
 org.eclipse.equinox.p2.touchpoint.natives.remove(path:${installFolder}/../../deployment/server/jaggeryapps/portal/extensions/themes/http-analytics-theme/,overwrite:true);\
