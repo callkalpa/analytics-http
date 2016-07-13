@@ -115,6 +115,11 @@
                                     <propertyDef>org.eclipse.equinox.p2.type.group:true</propertyDef>
                                 </properties>
                             </adviceFile>
+                            <bundles>
+                                <bundleDef>
+                                    org.wso2.carbon.analytics.http:org.wso2.carbon.analytics.http:${http.analytics.version}
+                                </bundleDef>
+                            </bundles>
                         </configuration>
                     </execution>
                 </executions>
