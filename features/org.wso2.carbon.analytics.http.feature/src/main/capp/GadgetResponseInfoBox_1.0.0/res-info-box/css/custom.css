@@ -411,7 +411,6 @@ small.measure-label {
     position: absolute;
     z-index: 50;
     left: 24px;
-    top: 47%;
 }
 
 .panel-two i, .panel-three i, .panel-four i {
