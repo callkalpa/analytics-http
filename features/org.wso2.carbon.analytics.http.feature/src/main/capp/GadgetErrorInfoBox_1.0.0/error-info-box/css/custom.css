@@ -164,9 +164,6 @@ a, a:hover {
     -moz-box-shadow: 0 3px 0 rgba(12,12,12,0.03);
     -webkit-box-shadow: 0 3px 0 rgba(12,12,12,0.03);
     box-shadow: 0 3px 0 rgba(12,12,12,0.03);
-    -moz-border-radius: 0 2px 2px 0;
-    -webkit-border-radius: 0 2px 2px 0;
-    border-radius: 0 2px 2px 0;
 }
 
 .leftpanel-collapsed .nav-as li.nav-hover ul {
@@ -178,9 +175,6 @@ a, a:hover {
     min-width: 204px;
     background: #1d2939;
     z-index: 100;
-    -moz-border-radius: 0 0 2px 0;
-    -webkit-border-radius: 0 0 2px 0;
-    border-radius: 0 0 2px 0;
 }
 
 .nav-as {
@@ -272,9 +266,6 @@ ul li{list-style: none;}
 }
 
 .panel {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -283,13 +274,11 @@ ul li{list-style: none;}
     -moz-box-shadow: 0 5px 0 rgba(12,12,12,0.03);
     -webkit-box-shadow: 0 5px 0 rgba(12,12,12,0.03);
     box-shadow: 0 5px 0 rgba(12,12,12,0.03);
+    margin-bottom: 0;
 }
 
 .panel-stat .panel-heading {
     padding: 15px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
 }
 
 .panel-heading.request-count {
@@ -360,14 +349,6 @@ ul li{list-style: none;}
 .panel-bottom-box h4{
     font-weight: 600;
     text-align: center;
-}
-
-.right-radius{
-    border-bottom-right-radius: 5px;
-}
-
-.left-radius{
-    border-bottom-left-radius: 5px;
 }
 
 .stat-label{
@@ -514,12 +495,12 @@ small.measure-label {
 }
 
 .statistics span {
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: 600;
     position: relative;
     padding-top: 21px;
     display: block;
-    padding-left: 39px;
+    text-align: center;
 }
 
 
@@ -546,7 +527,6 @@ small.measure-label {
     margin-right: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
-    border-radius: 0 0 4px 4px ;
 }
 
 .nav-tabs>li {
@@ -569,4 +549,9 @@ small.measure-label {
 
 .response-count i, .session-count i, .error-count i {
     margin: 6px 26px;
+}
+
+.panel-heading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }

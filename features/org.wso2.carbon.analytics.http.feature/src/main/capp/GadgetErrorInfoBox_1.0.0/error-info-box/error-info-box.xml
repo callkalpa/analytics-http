@@ -64,20 +64,20 @@
             <div class="panel-heading">
              <div class="statistics info-box-i-four" style="display:none" >
                 	<div class="row">
-                  		<div class="col-xs-3" style="width: 25%;" style="height:38.5%;">
+                  		<div class="col-xs-3" style="width: 25%;">
                      		<small class="statistics-main">Errors</small>
                     		<i class="fa fa-times-circle fa-3x"></i>
 
                   		</div>
-                  		<div class="col-xs-9">
-                   			<span class="total-count">123</span>
+                  		<div class="col-xs-6" style="height:59.5%;">
+                   			<span class="total-count"></span>
                   		</div>
                 	</div><!-- row -->
                 	<div class="arrow-box"></div>
                 	<div class="row">
 
                   		<div class="col-xs-12 panel-bottom-box  right-radius left-radius  box-one-color">
-                  			<h4 class="error-percentage">23%</h4>
+                  			<h4 class="error-percentage">0.00%</h4>
                     		<small class="stat-label">&nbsp;</small>
                   		</div>
                 	</div><!-- row -->

@@ -64,11 +64,11 @@
             <div class="panel-heading">
                 <div class="statistics info-box-i-three" style="display:none" >
                 	<div class="row">
-                  		<div class="col-xs-3" style="width: 25%;" style="height:38.5%;">
+                  		<div class="col-xs-3" style="width: 25%;">
                      		<small class="statistics-main">Sessions</small>
                     		<i class="fa fa-group fa-3x"></i>
                   		</div>
-                  		<div class="col-xs-9">
+                  		<div class="col-xs-6" style="height:59%;">
                    			<span class="total-count"></span>
                   		</div>
                 	</div><!-- row -->
