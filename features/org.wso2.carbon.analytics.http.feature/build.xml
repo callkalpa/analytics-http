@@ -18,7 +18,7 @@
 
     <target name="pre-configure">
         <mkdir dir="${http-analytics-target-dir}"/>
-        <mkdir dir="'${http-analytics-theme-target-dir}"/>
+        <mkdir dir="${http-analytics-theme-target-dir}"/>
         <copydir src="${http-analytics-dir}" dest="${http-analytics-target-dir}"/>
         <copydir src="${http-analytics-theme-dir}" dest="${http-analytics-theme-target-dir}"/>
     </target>
