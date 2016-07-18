@@ -286,9 +286,9 @@
 
         <fileSet>
             <directory>
-                ../p2-profile-gen/target/wso2carbon-core-${carbon.kernel.version}/capps/
+                ../p2-profile-gen/target/wso2carbon-core-${carbon.kernel.version}/repository/deployment/server/carbonapps/
             </directory>
-            <outputDirectory>${pom.artifactId}-${pom.version}/capps</outputDirectory>
+            <outputDirectory>${pom.artifactId}-${pom.version}/repository/deployment/server/carbonapps</outputDirectory>
             <includes>
                 <include>**/*.car</include>
             </includes>
